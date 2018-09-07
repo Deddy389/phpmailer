@@ -11,8 +11,8 @@ $mail->SMTPSecure= "ssl"; // ini jika menggunakan SSL tapi bisa juga menggunakan
 $mail->Port = 465; // ini port google..... kalau untuk untad nanti sesuaikan saja
 $mail->SMTPAuth = true;
 $mail->Username = "fandu139@gmail.com"; // user email
-$mail->Password = "isi passwormu di sini"; // password email
-$mail->AddAddress("fadli.mohamad62@gmail.com", "Fadli Tes"); // email akan di kirim
+$mail->Password = "input your password"; // password email
+$mail->AddAddress("fandupratama@gmail.com", "Fandu"); // email akan di kirim
 $mail->AddReplyTo("fandu139@gmail.com", "Fandu"); // email pengirim
 $mail->WordWrap = 50; // set word wrap
 
